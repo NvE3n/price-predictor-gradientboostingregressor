@@ -18,7 +18,7 @@ from xgboost.sklearn import XGBRegressor
 
 ### Linear Models
 ```
-- ElasticNet     - 0.6177668613600819
+ElasticNet     - 0.6177668613600819
 SGDRegressor     - 0.5981049488462731
 LinearRegression - 0.7368696612581807
 Lasso            - 0.7368144300281375
@@ -54,6 +54,6 @@ param_grid = {'loss':['squared_error', 'absolute_error', 'huber', 'quantile'],
 ```
 GradientBoostingRegressor(loss='huber', n_estimators=300)
 ```
-#### Final accuracy : 0.8428347881268542 :shipit:
+#### Final accuracy : 0.8428347881268542 
 
-Special Thanks for  @dineshpiyasamara ❤ 
+Special Thanks for @Dinesh S Piyasamara :shipit: 
