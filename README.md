@@ -56,4 +56,4 @@ GradientBoostingRegressor(loss='huber', n_estimators=300)
 ```
 #### Final accuracy : 0.8428347881268542 
 
-Special Thanks for @Dinesh S Piyasamara :shipit: 
+Special Thanks for @dineshpiyasamara :shipit: 
