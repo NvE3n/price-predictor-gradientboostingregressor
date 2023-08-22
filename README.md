@@ -23,8 +23,8 @@ from xgboost.sklearn import XGBRegressor
 * BayesianRidge - 0.7390254720176629
 
 ### Ensemble Models
-* **RandomForestRegressor - 0.7931818772343384
-* **GradientBoostingRegressor - 0.8012627085647115
+* RandomForestRegressor - 0.7931818772343384
+* GradientBoostingRegressor - 0.8012627085647115
 * **HistGradientBoostingRegressor - 0.7936760380366881
 
 ### Other Models
