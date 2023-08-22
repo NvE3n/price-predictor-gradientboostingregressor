@@ -22,12 +22,12 @@ Linear Models
 **Lasso** - 0.7368144300281375
 **BayesianRidge** - 0.7390254720176629
 
-*Ensemble Models
+Ensemble Models
 **RandomForestRegressor** - 0.7931818772343384
 **GradientBoostingRegressor** - 0.8012627085647115
 **HistGradientBoostingRegressor** - 0.7936760380366881
 
-*Other Models
+* Other Models
 **SVR** - 0.023262447195445478
 **KernelRidge** - 0.7393279723774349
 **XGBRegressor** - 0.7909195707044037
@@ -39,7 +39,8 @@ Linear Models
 Used parameters :
 ```python
 param_grid = {'loss':['squared_error', 'absolute_error', 'huber', 'quantile'],
-              'learning_rate':[0.0, 0.01, 0.1, 0.2, 0.3], 'n_estimators': [200, 300, 400]}
+              'learning_rate':[0.0, 0.01, 0.1, 0.2, 0.3],
+              'n_estimators': [200, 300, 400]}
 ```
 
 ###Best Estimator :
