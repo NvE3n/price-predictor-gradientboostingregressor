@@ -43,10 +43,10 @@ param_grid = {'loss':['squared_error', 'absolute_error', 'huber', 'quantile'],
               'n_estimators': [200, 300, 400]}
 ```
 
-###Best Estimator :
+### Best Estimator :
 ```
 GradientBoostingRegressor(loss='huber', n_estimators=300)
 ```
-####Final accuracy : 0.8428347881268542 :shipit:
+#### Final accuracy : 0.8428347881268542 :shipit:
 
 ❤ Special Thanks for 
