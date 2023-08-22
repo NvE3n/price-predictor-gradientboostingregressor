@@ -2,7 +2,7 @@
 
 This is a simple machine learning model that predicts laptop prices by inserting specifications. Mainly used pre-built linear models, ensemble models and some other reggression models.
 
-```
+```python
 from sklearn.linear_model import ElasticNet, SGDRegressor, LinearRegression, Lasso, BayesianRidge
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, HistGradientBoostingRegressor
 from sklearn.svm import SVR
