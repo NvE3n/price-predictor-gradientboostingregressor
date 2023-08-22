@@ -3,6 +3,7 @@
 This is a simple machine learning model that predicts laptop prices by inserting specifications. Mainly used pre-built linear models, ensemble models and some other reggression models. 
 
 ```python
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.linear_model import ElasticNet, SGDRegressor, LinearRegression, Lasso, BayesianRidge
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, HistGradientBoostingRegressor
 from sklearn.svm import SVR
@@ -33,7 +34,7 @@ HistGradientBoostingRegressor - 0.7936760380366881
 
 ### Other Models
 ```
-- SVR          - 0.023262447195445478
+SVR          - 0.023262447195445478
 KernelRidge  - 0.7393279723774349
 XGBRegressor - 0.7909195707044037
 ```
@@ -55,4 +56,4 @@ GradientBoostingRegressor(loss='huber', n_estimators=300)
 ```
 #### Final accuracy : 0.8428347881268542 :shipit:
 
-❤ Special Thanks for 
+Special Thanks for  @dineshpiyasamara ❤ 
